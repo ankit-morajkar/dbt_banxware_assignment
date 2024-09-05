@@ -1,0 +1,19 @@
+name: 'dbt_banxware_assignment'
+version: '1.0.0'
+
+profile: 'dbt_banxware_assignment'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["data"]  # Updated to only use 'seed-paths' for CSV files
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_banxware_assignment:
+    

@@ -1,0 +1,8 @@
+version: 2
+
+seeds:
+  dbt_banxware_assignment:
+    sales:
+      +name: raw_sales_data  # Use +name to specify the table name
+    customers:
+      +name: raw_customer_data  # Use +name to specify the table name
