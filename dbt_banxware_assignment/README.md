@@ -19,7 +19,7 @@ Setup Instructions
 1. Clone the Repository
 First, clone the repository to your local machine:
 
-git clone https://github.com/your-username/dbt_banxware_assignment.git
+git clone https://github.com/ankit-morajkar/dbt_banxware_assignment
 
 cd dbt_banxware_assignment
 
